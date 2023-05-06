@@ -3,7 +3,7 @@ import JobListingPage from './pages/JobListingPage';
 
 function App() {
   return (
-    < >
+    <>
       <Layout>
         <JobListingPage />
       </Layout>

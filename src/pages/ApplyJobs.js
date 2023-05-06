@@ -34,7 +34,7 @@ const ApplyJobs = ({ openModal, closeModal, cardValue }) => {
         title={
           <div class='flex justify-between items-center w-full'>
             <p class='text-lg'>Create a Job</p>
-            <p class='text-lg'>Step 1</p>
+            <p class='text-lg'>Step {formCount}</p>
           </div>
         }>
         {

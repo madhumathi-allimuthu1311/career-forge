@@ -24,6 +24,11 @@ const Step1Form = ({ onClickNext, data }) => {
           placeholder='ex. UX UI Designer'
           label="Job title"
           mt={24}
+          styles={(theme) => ({
+            label: {
+              fontSize: 14,
+            },
+          })}
           {...form.getInputProps('role')}
         />
         <TextInput
@@ -67,6 +72,11 @@ const Step1Form = ({ onClickNext, data }) => {
             <TextInput
               placeholder="ex. In-office"
               label="Remote type"
+              styles={(theme) => ({
+                label: {
+                  fontSize: 14,
+                },
+              })}
               {...form.getInputProps('remote_type')}
             />
           </div>
